@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -113,41 +113,18 @@
 
   <!-- Objetivos específicos -->
   <div class="row gy-4 mt-4">
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+    <div class="col-12" data-aos="fade-up" data-aos-delay="200">
       <div class="service-card">
         <div class="service-icon">
-          <i class="bi bi-boxes"></i>
+          <i class="bi-flag"></i>
         </div>
-        <h4><a href="service-details.html" class="font-artistik">Objetivos específicos</a></h4>
-        <ul>
-          <li>Proveer el más amplio surtido de productos y servicios relacionados, con los precios más competitivos.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-      <div class="service-card">
-        <div class="service-icon">
-          <i class="bi bi-people"></i>
-        </div>
-        <h4><a href="service-details.html" class="font-artistik">Objetivos específicos</a></h4>
-        <ul>
-          <li>Ofrecer asesoría de sistemas, análisis, adquisición e implantación de equipo de cómputo.</li>
-          <li>Mantener armonía y comunicación entre los miembros de este negocio.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-      <div class="service-card">
-        <div class="service-icon">
-          <i class="bi bi-code-slash"></i>
-        </div>
-        <h4><a href="service-details.html" class="font-artistik">Objetivos específicos</a></h4>
-        <ul>
-          <li>Proporcionar un bienestar económico y social a los trabajadores.</li>
-          <li>Proporcionar la mejor calidad en nuestros productos y servicios.</li>
-        </ul>
+        <h4><a class="font-artistik">Objetivos específicos</a></h4>        
+      <div class="objetivos-especificos">
+          <p class="objetivo">Proveer el más amplio surtido de productos y servicios relacionados, con los precios más competitivos.</p>
+          <p class="objetivo">Ofrecer asesoría de sistemas, análisis, adquisición e implantación de equipo de cómputo.</p>
+          <p class="objetivo">Mantener armonía y comunicación entre los miembros de este negocio.</p>
+          <p class="objetivo">Proporcionar un bienestar económico y social a los trabajadores.</p>
+          <p class="objetivo">Proporcionar la mejor calidad en nuestros productos y servicios.</p>
       </div>
     </div>
   </div>
@@ -157,36 +134,30 @@
     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
       <div class="service-card">
         <div class="service-icon">
-          <i class="bi bi-phone"></i>
+          <i class="bi-award"></i>
         </div>
-        <h4><a href="service-details.html" class="font-artistik">MISIÓN</a></h4>
-        <ul>
-          <li>Permanecer como el proveedor No. 1 en nuestro giro en la zona norte del Estado de México, cumpliendo con las normas ambientales y sociales.</li>
-        </ul>
+        <h4><a class="font-artistik">Misión</a></h4>        
+          <p>Permanecer como el proveedor No. 1 en nuestro giro en la zona norte del Estado de México, cumpliendo con las normas ambientales y sociales.</p>        
       </div>
     </div>
 
     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
       <div class="service-card">
         <div class="service-icon">
-          <i class="bi bi-megaphone"></i>
+          <i class="bi-trophy"></i>
         </div>
-        <h4><a href="service-details.html" class="font-artistik">FILOSOFÍA</a></h4>
-        <ul>
-          <li>Ser eficientes en todo lo que hacemos, con trabajo, honestidad, responsabilidad, productividad y calidad.</li>
-        </ul>
+        <h4><a class="font-artistik">Filosofía</a></h4>
+          <p>Ser eficientes en todo lo que hacemos, con trabajo, honestidad, responsabilidad, productividad y calidad.</p>
       </div>
     </div>
 
     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
       <div class="service-card">
         <div class="service-icon">
-          <i class="bi bi-search"></i>
+          <i class="bi-star"></i>
         </div>
-        <h4><a href="service-details.html" class="font-artistik">VALORES ¿En qué creemos?</a></h4>
-        <ul>
-          <li>Nuestros clientes son nuestra razón de ser.</li>
-        </ul>
+        <h4><a class="font-artistik">Valores ¿En qué creemos?</a></h4>
+          <p>Nuestros clientes son nuestra razón de ser.</p>
       </div>
     </div>
   </div>
@@ -207,46 +178,99 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="isotope-layout" data-default-filter=".filter-web" data-layout="masonry" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
-            <li data-filter="*" class="filter-active">All Projects</li>
-            <li data-filter=".filter-web">Web Design</li>
-            <li data-filter=".filter-mobile">Mobile Apps</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-ui">UI/UX</li>
+            <li id="filter-papeleria" data-filter=".filter-web" class="filter-active">Papelería</li>
+            <li id="filter-accesorios" data-filter=".filter-mobile">Accesorios</li>
+            <li id="filter-muebleria" data-filter=".filter-branding">Mueblería</li>
+            <li id="filter-equipos" data-filter=".filter-ui">Impresoras y equipos</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
             <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-wrapper">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-7.webp" alt="Creative Web Project" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/papeleria/calculadora.webp" alt="Creative Web Project" class="img-fluid" loading="lazy">
                   <div class="portfolio-hover">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-7.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                      <a href="assets/img/portfolio/papeleria/calculadora.webp" class="glightbox action-btn preview-btn" title="Preview Project">
                         <i class="bi bi-eye"></i>
                       </a>
-                      <a href="#" class="action-btn details-btn" title="View Details">
+                      <a href="https://drive.google.com/drive/folders/1MmiKLafwg5rnvuJFIwjj969Bf0fMWJLI"  target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">                  
+                  <h3>Catálogo de Calculadoras</h3>
+                  <p>Descubre nuestra selección de calculadoras científicas, financieras y básicas, ideales para estudiantes.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/papeleria/colores.webp" alt="Mobile App Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/papeleria/colores.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1V3fI6MMhpE1WDpeduTWSz_DejzUO9cKp" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
                         <i class="bi bi-arrow-up-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="portfolio-content">
-                  <div class="portfolio-meta">
-                    <span class="project-type">Web Design</span>
-                    <div class="project-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <span>4.8</span>
+                  <h3>Catálogo de Colores</h3>
+                  <p>Contamos con amplia gama de colores. Disfruta de trazos suaves, tonos intensos y calidad duradera.</p>                 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/papeleria/lapiceros.webp" alt="Branding Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/papeleria/lapiceros.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1T-qv9fMlze6dCl_MqGIuUbivsJvI7Vcn" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
                     </div>
                   </div>
-                  <h3>Digital Innovation Platform</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-                  <div class="portfolio-tech">
-                    <span class="tech-badge">React</span>
-                    <span class="tech-badge">Node.js</span>
-                    <span class="tech-badge">AWS</span>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo de Bolígrafos</h3>
+                  <p>Encuentra bolígrafos de diferentes modelos, ideales para uso escolar, profesional o personal.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/papeleria/plumones.webp" alt="UI/UX Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/papeleria/plumones.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1IinKlRCwqORfLpDaT2CnzSL4wPi3nOGP" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
                   </div>
+                </div>
+                <div class="portfolio-content">                  
+                  <h3>Catálogo de Plumones</h3>
+                  <p>Descubre plumones permanentes, para pizarra o artísticos, con colores vibrantes y durabilidad garantizada.</p>                 
                 </div>
               </div>
             </div>
@@ -254,33 +278,109 @@
             <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-mobile">
               <div class="portfolio-wrapper">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-8.webp" alt="Mobile App Project" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/AccesoriosPerifericos/hubUSB.webp" alt="E-commerce Platform" class="img-fluid" loading="lazy">
                   <div class="portfolio-hover">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-8.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                      <a href="assets/img/portfolio/AccesoriosPerifericos/hubUSB.webp" class="glightbox action-btn preview-btn" title="Preview Project">
                         <i class="bi bi-eye"></i>
                       </a>
-                      <a href="#" class="action-btn details-btn" title="View Details">
+                      <a href="https://drive.google.com/drive/folders/1GEkafCp24AohYhtAclcfg3fbXt5NQE6C" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">                  
+                  <h3>Catálogo de Hub USB</h3>
+                  <p>Conecta múltiples dispositivos con velocidad y eficiencia en un solo puerto USB</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/AccesoriosPerifericos/router.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/AccesoriosPerifericos/router.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1su4ov4zIR2wNiJWGNpn6nEuJRV8g_hcc" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
                         <i class="bi bi-arrow-up-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="portfolio-content">
-                  <div class="portfolio-meta">
-                    <span class="project-type">Mobile App</span>
-                    <div class="project-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <span>4.9</span>
+                  <h3>Catálogo de Accesorios Wifi / Redes</h3>
+                  <p>Disfruta de conexión estable y rápida para tu red doméstica o empresarial.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/AccesoriosPerifericos/soporte.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/AccesoriosPerifericos/soporte.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1rJwx6uA6wn_f8E3LxgD74076blLN8QhB" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
                     </div>
                   </div>
-                  <h3>Smart Productivity App</h3>
-                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
-                  <div class="portfolio-tech">
-                    <span class="tech-badge">Flutter</span>
-                    <span class="tech-badge">Firebase</span>
-                    <span class="tech-badge">AI</span>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo de Soportes</h3>
+                  <p>Ajusta tu monitor fácilmente con soporte resistente y de instalación sencilla.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/AccesoriosPerifericos/teclado.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/AccesoriosPerifericos/teclado.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1BEo7fd9ZpI2sp-PKMOeCUVXIQEDKvUIh" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
                   </div>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo de Teclados</h3>
+                  <p>Diseño ergonómico y conexión USB para mayor comodidad en tu trabajo diario.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/AccesoriosPerifericos/webcam.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/AccesoriosPerifericos/webcam.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1wkvTH44qPLXvofhJMzWbZRlkwfKkf9Qm" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo de Cámaras Web</h3>
+                  <p>Videollamadas en alta definición con imagen clara y micrófono integrado.</p>                  
                 </div>
               </div>
             </div>
@@ -288,33 +388,154 @@
             <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-wrapper">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-9.webp" alt="Branding Project" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/Muebleria/Mueble_2.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
                   <div class="portfolio-hover">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-9.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                      <a href="assets/img/portfolio/Muebleria/Mueble_2.webp" class="glightbox action-btn preview-btn" title="Preview Project">
                         <i class="bi bi-eye"></i>
                       </a>
-                      <a href="#" class="action-btn details-btn" title="View Details">
+                      <a href="https://drive.google.com/drive/folders/1S9I2lORTAvPI6ojzNEsO9HLD4b-9zTyD" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
                         <i class="bi bi-arrow-up-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="portfolio-content">
-                  <div class="portfolio-meta">
-                    <span class="project-type">Branding</span>
-                    <div class="project-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <span>5.0</span>
+                  <h3>Catálogo de escritorios</h3>
+                  <p>Videollamadas en alta definición con imagen clara y micrófono integrado.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Muebleria/Mueble_3.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/Muebleria/Mueble_3.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1C5_y06xYlh8E-VHGzkcpFMiRyPGZkQMs" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
                     </div>
                   </div>
-                  <h3>Modern Brand Identity</h3>
-                  <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id.</p>
-                  <div class="portfolio-tech">
-                    <span class="tech-badge">Illustrator</span>
-                    <span class="tech-badge">Figma</span>
-                    <span class="tech-badge">Brand</span>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo de vitrinas y mostradores</h3>
+                  <p>Videollamadas en alta definición con imagen clara y micrófono integrado.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Muebleria/Mesas.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/Muebleria/Mesas.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/12tQMkHsb33eT-5Z-fafacTWo7VKKgbwU" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
                   </div>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo mesas de fiesta</h3>
+                  <p>Videollamadas en alta definición con imagen clara y micrófono integrado.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Muebleria/Restiradores.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/Muebleria/Restiradores.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1ylvWEUNLpiGkalR2NIPVSiij8EHRpJwh" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo de restiradores caballetes y rotafolios</h3>
+                  <p>Videollamadas en alta definición con imagen clara y micrófono integrado.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Muebleria/Mueble_1.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/Muebleria/Mueble_1.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/12vAdmSoQ6YF9lgPazJkkjGtoVUkrBhfI" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo libreros, archiveros y estantes</h3>
+                  <p>Videollamadas en alta definición con imagen clara y micrófono integrado.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Muebleria/Silla_1.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/Muebleria/Silla_1.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1PcQalTX6hulRD0z3kyZ1rK6tDjC6ArlW" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo de siilas</h3>
+                  <p>Videollamadas en alta definición con imagen clara y micrófono integrado.</p>                  
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-ui">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/ImpresorasEquipos/EpsonL5290.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/ImpresorasEquipos/EpsonL5290.webp" class="glightbox action-btn preview-btn" title="Epson L5290">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/1Tbw5o7-CWj0-E7sb-ydhjL_PS9k8blUk?usp=sharing" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo impresoras tinta continua</h3>
+                  <p>Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Sed porttitor lectus nibh.</p>                  
                 </div>
               </div>
             </div>
@@ -322,104 +543,92 @@
             <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-ui">
               <div class="portfolio-wrapper">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-10.webp" alt="UI/UX Project" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/ImpresorasEquipos/HP_M236SDW.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
                   <div class="portfolio-hover">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-10.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                      <a href="assets/img/portfolio/ImpresorasEquipos/HP_M236SDW.webp" class="glightbox action-btn preview-btn" title="HP M236SDW">
                         <i class="bi bi-eye"></i>
                       </a>
-                      <a href="#" class="action-btn details-btn" title="View Details">
+                      <a href="https://drive.google.com/drive/folders/14GaqaO1sil4Xse8Q6AW5FscE4KDEXOHy" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
                         <i class="bi bi-arrow-up-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="portfolio-content">
-                  <div class="portfolio-meta">
-                    <span class="project-type">UI/UX</span>
-                    <div class="project-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <span>4.7</span>
-                    </div>
-                  </div>
-                  <h3>SaaS Dashboard Design</h3>
-                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                  <div class="portfolio-tech">
-                    <span class="tech-badge">Figma</span>
-                    <span class="tech-badge">Prototyping</span>
-                    <span class="tech-badge">UX</span>
-                  </div>
+                  <h3>Catálogo impresoras laser</h3>
+                  <p>Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Sed porttitor lectus nibh.</p>                  
                 </div>
               </div>
             </div>
 
-            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-web">
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-ui">
               <div class="portfolio-wrapper">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-11.webp" alt="E-commerce Platform" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/ImpresorasEquipos/CamaraVigilancia.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
                   <div class="portfolio-hover">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-11.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                      <a href="assets/img/portfolio/ImpresorasEquipos/CamaraVigilancia.webp" class="glightbox action-btn preview-btn" title="Camara de Vigilancia">
                         <i class="bi bi-eye"></i>
                       </a>
-                      <a href="#" class="action-btn details-btn" title="View Details">
+                      <a href="https://drive.google.com/drive/folders/1Vt7VuqJqwxcpj-ho9rlKlpbD7MdpAiy8" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
                         <i class="bi bi-arrow-up-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="portfolio-content">
-                  <div class="portfolio-meta">
-                    <span class="project-type">E-commerce</span>
-                    <div class="project-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <span>4.6</span>
-                    </div>
-                  </div>
-                  <h3>E-commerce Platform</h3>
-                  <p>Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed.</p>
-                  <div class="portfolio-tech">
-                    <span class="tech-badge">Shopify</span>
-                    <span class="tech-badge">React</span>
-                    <span class="tech-badge">API</span>
-                  </div>
+                  <h3>Catálogo cámaras de vigilancia</h3>
+                  <p>Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Sed porttitor lectus nibh.</p>                  
                 </div>
               </div>
             </div>
 
-            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-mobile">
+            
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-ui">
               <div class="portfolio-wrapper">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-12.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/ImpresorasEquipos/Nobreak.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
                   <div class="portfolio-hover">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-12.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                      <a href="assets/img/portfolio/ImpresorasEquipos/Nobreak.webp" class="glightbox action-btn preview-btn" title="Camara de Vigilancia">
                         <i class="bi bi-eye"></i>
                       </a>
-                      <a href="#" class="action-btn details-btn" title="View Details">
+                      <a href="https://drive.google.com/drive/folders/17_HWv1cG6TWTFpBSxw0BXaP_SjZAmDwV?usp=sharing" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
                         <i class="bi bi-arrow-up-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="portfolio-content">
-                  <div class="portfolio-meta">
-                    <span class="project-type">Fintech</span>
-                    <div class="project-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <span>4.8</span>
-                    </div>
-                  </div>
-                  <h3>Fintech Mobile Solution</h3>
-                  <p>Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Sed porttitor lectus nibh.</p>
-                  <div class="portfolio-tech">
-                    <span class="tech-badge">Swift</span>
-                    <span class="tech-badge">Kotlin</span>
-                    <span class="tech-badge">Blockchain</span>
-                  </div>
+                  <h3>Catálogo reguladores</h3>
+                  <p>Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Sed porttitor lectus nibh.</p>                  
                 </div>
               </div>
             </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-ui">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/ImpresorasEquipos/Panasonic.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/ImpresorasEquipos/Panasonic.webp" class="glightbox action-btn preview-btn" title="Camara de Vigilancia">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="https://drive.google.com/drive/folders/117ynaivQUTHohmIXMZb5hTkQUOtEdiGO" target="_blank" rel="noopener" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h3>Catálogo teléfonos</h3>
+                  <p>Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Sed porttitor lectus nibh.</p>                  
+                </div>
+              </div>
+            </div>
+
           </div><!-- End Portfolio Items Container -->
 
           
@@ -434,12 +643,6 @@
      <!-- Clients Section -->
     <section id="clients" class="clients section">
 
-      <!-- Section Title -->
-       <!--
-      <div class="container section-title" data-aos="fade-up">
-        <h2>¿No encuentras lo que buscabas?</h2>
-        <p>Escríbenos, cotizamos tu idea de diseño, te ayudamos a conseguir el producto que ocupas.</p>
-      -->
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -472,24 +675,24 @@
 
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-8.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-9.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-10.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-11.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-12.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-13.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-14.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-15.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-16.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-17.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/clients/client-18.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-12.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-13.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-14.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-15.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-16.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-17.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-18.png" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -513,7 +716,7 @@
     <div class="form-header">
       
       <h3>Encuéntranos aquí</h3>
-      <p>Visítanos en nuestra ubicación física.</p>
+      <p>Visítanos en nuestra sucursal.</p>
     </div>
     <div style="width: 100%; height: 350px; border-radius: 12px; overflow: hidden;">
       <iframe 
@@ -593,63 +796,61 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Clarity</span>
+            <span class="font-artistik">PPC</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>Hidalgo Norte No. 12-3, Col. Centro</p>
+            <p>C.P. 50450, Atlacomulco, Edo. de México.</p>
+            <p class="mt-3"><strong>Teléfono:</strong> <span>712-122-19-84</span></p>            
+            <p><strong>Email:</strong> <span>ventas1_ppc@hotmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/ppclasevillana" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4><a href="#filter-papeleria" style="color:inherit; text-decoration:none;">Papelería</a></h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1MmiKLafwg5rnvuJFIwjj969Bf0fMWJLI" target="_blank" rel="noopener">Catálogo de Calculadoras</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1V3fI6MMhpE1WDpeduTWSz_DejzUO9cKp" target="_blank" rel="noopener">Catálogo de Colores</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1T-qv9fMlze6dCl_MqGIuUbivsJvI7Vcn" target="_blank" rel="noopener">Catálogo de Bolígrafos</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1IinKlRCwqORfLpDaT2CnzSL4wPi3nOGP" target="_blank" rel="noopener">Catálogo de Plumones</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4><a href="#filter-accesorios" style="color:inherit; text-decoration:none;">Accesorios</a></h4>
+          <ul>
+            <li><a href="https://drive.google.com/drive/folders/1GEkafCp24AohYhtAclcfg3fbXt5NQE6C" target="_blank" rel="noopener">Catálogo de Hub USB</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1su4ov4zIR2wNiJWGNpn6nEuJRV8g_hcc" target="_blank" rel="noopener">Catálogo de Accesorios Wifi</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1rJwx6uA6wn_f8E3LxgD74076blLN8QhB" target="_blank" rel="noopener">Catálogo de Soportes</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1BEo7fd9ZpI2sp-PKMOeCUVXIQEDKvUIh" target="_blank" rel="noopener">Catálogo de Teclados</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1wkvTH44qPLXvofhJMzWbZRlkwfKkf9Qm" target="_blank" rel="noopener">Catálogo de Cámaras Web</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4><a href="#filter-muebleria" style="color:inherit; text-decoration:none;">Mueblería</a></h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1S9I2lORTAvPI6ojzNEsO9HLD4b-9zTyD" target="_blank" rel="noopener">Catálogo de escritorios</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1C5_y06xYlh8E-VHGzkcpFMiRyPGZkQMs" target="_blank" rel="noopener">Catálogo de vitrinas y mostradores</a></li>
+            <li><a href="https://drive.google.com/drive/folders/12tQMkHsb33eT-5Z-fafacTWo7VKKgbwU" target="_blank" rel="noopener">Catálogo mesas de fiesta</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1ylvWEUNLpiGkalR2NIPVSiij8EHRpJwh" target="_blank" rel="noopener">Catálogo de restiradores caballetes y rotafolios</a></li>
+            <li><a href="https://drive.google.com/drive/folders/12vAdmSoQ6YF9lgPazJkkjGtoVUkrBhfI" target="_blank" rel="noopener">Catálogo libreros, archiveros y estantes</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1PcQalTX6hulRD0z3kyZ1rK6tDjC6ArlW" target="_blank" rel="noopener">Catálogo de siilas</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4><a href="#filter-equipos" style="color:inherit; text-decoration:none;">Impresoras y equipos</a></h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1Tbw5o7-CWj0-E7sb-ydhjL_PS9k8blUk?usp=sharing" target="_blank" rel="noopener">Catálogo de impresoras tinta continua</a></li>
+            <li><a href="https://drive.google.com/drive/folders/14GaqaO1sil4Xse8Q6AW5FscE4KDEXOHy" target="_blank" rel="noopener">Catálogo de impresoras laser</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1Vt7VuqJqwxcpj-ho9rlKlpbD7MdpAiy8" target="_blank" rel="noopener">Catálogo cámaras de vigilancia</a></li>
+            <li><a href="https://drive.google.com/drive/folders/17_HWv1cG6TWTFpBSxw0BXaP_SjZAmDwV?usp=sharing" target="_blank" rel="noopener">Catálogo de reguladores</a></li>
+            <li><a href="https://drive.google.com/drive/folders/117ynaivQUTHohmIXMZb5hTkQUOtEdiGO" target="_blank" rel="noopener">Catálogo de teléfonos</a></li>
           </ul>
         </div>
 
@@ -658,11 +859,7 @@
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Clarity</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+      <div class="credits">        
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
